@@ -1,0 +1,106 @@
+
+a {
+    color : red;
+}
+
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.container {
+    border-radius: 15px;
+    background-color:rgb(0, 110, 255);
+    padding: 20px, 10px, 20px, 10px;
+}
+
+.container2 {
+    border-radius: 15px;
+    background-color:lightgrey;
+    padding: 20px, 10px, 20px, 10px;
+}
+.red {
+    color : #f33
+}
+
+.rededit {
+    color: red;
+    border-left: 6px solid #ff8a00;
+}
+.white {
+    color : white
+}
+.blue {
+    color: #202fdb
+}
+div.row * {
+    background-color: lightyellow;
+
+}
+
+
+input[type="email"] {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    background-color: yellowgreen;
+
+}
+
+input[type="text"] {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+textarea[type="message"] {
+    width: 100%;
+    height: 30px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.submit-btn {
+    border-radius: 10%;
+    width: 90px;
+    height: 40px;
+    background-color: #202fdb;
+    color: white;
+}
+
+.send-btn {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    background-color: green;
+    color : white
+}
+
+.styled-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 16px;
+  text-align: left;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.styled-table thead tr {
+  background-color: #2196f3; /* xanh dương */
+  color: #ffffff;            /* chữ trắng */
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+.styled-table tbody tr:nth-child(even) {
+  background-color: #f2f9ff; /* xanh nhạt */
+}
+
+.styled-table tbody tr:hover {
+  background-color: #e0f0ff; /* hover effect */
+}
